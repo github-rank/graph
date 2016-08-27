@@ -1,0 +1,17 @@
+{
+  "name": "git-rank-graph",
+  "version": "1.0.0",
+  "description": "graph",
+  "main": "index.js",
+  "scripts": {
+    "start": "./node_modules/.bin/http-server",
+    "build": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vadim Yalovenko <yalovek@ya.ru>",
+  "license": "MIT",
+  "dependencies": {
+    "http-server": "^0.9.0",
+    "lodash": "^4.15.0"
+  }
+}
